@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500&family=Raleway:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+body {
+  background-color: black;
+  color: #d6e0f0;
+  font-family: "Raleway", sans-serif;
+}
+
+.MyName {
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+}
+
+.myFace {
+  height: 200px;
+  width: 200px;
+}
+
+.k {
+  height: 600px;
+  width: 400px;
+}
+
+/* Div Styles */
+.top-container {
+  text-align: center;
+  margin-top: 70px;
+}
+.second-container {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  background-color: #fff;
+  padding: 0;
+  margin: 80px;
+  border: 0;
+  border-top: 1px #8c8c8c;
+}
+
+/* Text Styles */
+
+h5 {
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+p a {
+  color: azure;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
