@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "./about.css";
 import ReactCardCarousel from "react-card-carousel";
+import Responsive from "./Images/resp.png";
+import AI from "./Images/ai.png";
+import App from "./Images/app.png";
+import Anime from "./Images/naruto.png";
 
 let a = <p>Ive a Passion to Learn a lot Of programming languages</p>;
 let b = <p>To make my sites as responsive and Pleasing as they can get</p>;
@@ -46,19 +50,19 @@ class MyCarousel extends Component {
           </div>
           <div className="container" style={MyCarousel.CARD_STYLE}>
             {b}
-            <img className="carouselimg" src="../Images/resp.png" alt="" />
+            <img className="carouselimg" src={Responsive} alt="" />
           </div>
           <div className="container" style={MyCarousel.CARD_STYLE}>
             {c}
-            <img className="carouselimg" src="../Images/ai.png" alt="" />
+            <img className="carouselimg" src={AI} alt="" />
           </div>
           <div className="container" style={MyCarousel.CARD_STYLE}>
             {d}
-            <img className="carouselimg" src="../Images/app.png" alt="" />
+            <img className="carouselimg" src={App} alt="" />
           </div>
           <div className="container" style={MyCarousel.CARD_STYLE}>
             {e}
-            <img className="carouselimg" src="../Images/image.png" alt="" />
+            <img className="carouselimg" src={Anime} alt="" />
           </div>
         </ReactCardCarousel>
       </div>

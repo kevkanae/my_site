@@ -1,13 +1,14 @@
 import React from "react";
 import "./about.css";
 import MyCarousel from "./CardCarousel.js";
+import Me from "./Images/Me.png";
 
 export default function One() {
   return (
     <div>
       <div className="top-container">
         <div>
-          <img className="myFace" src="../Images/Me.png" alt="Me" />
+          <img className="myFace" src={Me} alt="Me" />
         </div>
         <h5 className="MyName">Kevin Daniel Goveas</h5>
         <p>
