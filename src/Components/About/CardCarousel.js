@@ -5,16 +5,15 @@ import ReactPic from "./Images/ReactPic.png";
 import App from "./Images/app.png";
 import Anime from "./Images/naruto.png";
 
-let a = <p>Hi, I'm Kevin</p>;
-let b = <p>I love building Flutter Apps</p>;
-let c = <p>Web Development using React and/or Node.js</p>;
-let d = <p>A novice Full-Stack Dev</p>;
-let e = <p>A N I M E ╰( ͡° ͜ʖ ͡° )つ──☆</p>;
-
 const imgStyle = {
     width: "100",
     height: "100"
 }
+
+let b = <p>I love building Flutter Apps</p>;
+let c = <p>Web Development using React and/or Node.js</p>;
+let d = <p>A novice Full-Stack Dev</p>;
+let e = <p>A N I M E ╰( ͡° ͜ʖ ͡° )つ──☆</p>;
 
 
 class MyCarousel extends Component {
@@ -40,7 +39,7 @@ class MyCarousel extends Component {
             color: "#FFF",
             fontFamily: "Mulish, sans-serif",
             fontSize: "18px",
-            borderRadius: "10px",
+            borderRadius: "49px",
             boxSizing: "border-box",
         };
     }
@@ -49,9 +48,6 @@ class MyCarousel extends Component {
         return (
             <div style={MyCarousel.CONTAINER_STYLE}>
                 <ReactCardCarousel autoplay={true} autoplay_speed={3500}>
-                    <div className="container" style={MyCarousel.CARD_STYLE}>
-                        {a}
-                    </div>
                     <div className="container" style={MyCarousel.CARD_STYLE}>
                         {b}
                         <img className="carouselimg" src={App} alt="" style={imgStyle}/>
